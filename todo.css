@@ -1,0 +1,74 @@
+input{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 25px;
+    padding-left: 10px;
+}
+button {
+    height: 40px;
+    border-radius: 30px;
+    font-size: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 20px;
+    background-color: rgb(14, 122, 19);
+    color: aliceblue;
+    font-weight: 900;
+    border: 0px;
+}
+
+.card{
+    background-color: rgba(253, 242, 242, 0.938);
+    border-radius: 5px;
+    width: 550px;
+    /* height: 2rem; */
+    padding: auto;
+    margin-bottom: 20px;
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+}
+.cardDone{
+    background-color: rgba(132, 228, 156, 0.938);
+    border-radius: 5px;
+    width: 550px;
+    /* height: 2rem; */
+    padding: auto;
+    margin-bottom: 20px;
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.cardTitle{
+    font-size: 25px;
+    margin: 0px;
+    padding:5px;
+    text-align: left;
+    font-weight: 500;  
+    flex: 1;
+    /* border: 1px solid; */
+}
+.cardTitleDone{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin: 0px;
+    padding:5px;
+    text-align: left;
+    font-weight: 500;  
+    flex: 1;
+    text-decoration: line-through;
+    /* border: 1px solid; */
+}
+.deleteText{
+    font-size: 25px;
+    margin: 0px;
+    padding:5px;
+    text-align: left;
+    font-weight: 300; 
+    color: rgb(7, 7, 109); 
+    margin-right: 10px;
+    cursor: pointer;
+}
